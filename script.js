@@ -51,15 +51,15 @@ const resetGame = () => {
 }
 const scoreIncrement = (winner) =>{
     if(winner==='cross'){
-        confirm('cross won');
+        alert('cross won');
         document.getElementById('cross-score').innerText = parseInt(document.getElementById('cross-score').innerText) + 1; 
     }
     else if(winner==='circle'){
-        confirm('circle won');
+        alert('circle won');
         document.getElementById('circle-score').innerText = parseInt(document.getElementById('circle-score').innerText) + 1;
     }
     else if(winner==='tie'){
-        confirm('Its a tie');
+        alert('Its a tie');
     }
     resetGame();
 }
