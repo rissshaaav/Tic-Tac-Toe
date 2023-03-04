@@ -13,3 +13,7 @@ This is a simple implementation of the classic Tic Tac Toe game using HTML, CSS,
 * This implementation of the Tic Tac Toe game uses a 3x3 grid represented by an array. The state of each square is tracked using the gameBoardValues array, where each element can have one of three values: "" (empty), "close" (representing "Cross"), or "radio_button_unchecked" (representing "Circle").
 * The game checks for a winner or a tie after each move by looping through all possible winning combinations and comparing the values in those squares. If a winner is found, the scoreIncrement function is called, which displays a confirmation box showing the winner and increments their score. If no winner is found but all squares are filled, the checkTie function is called, which displays a confirmation box showing that the game is a tie.
 * The game also includes a "Reset" button that clears the board and sets the scores back to zero.
+
+
+![127 0 0 1_5500_(Samsung Galaxy S8+)](https://user-images.githubusercontent.com/111266613/222883243-0bd2a22e-ba12-4004-8466-64b4074a5bb1.png)
+![image](https://user-images.githubusercontent.com/111266613/222883402-a01d3396-c3bf-49e2-90ab-17fce014fdd1.png)
