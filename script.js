@@ -1,7 +1,7 @@
 let gameBoardValues = ["","","","","","","","",""];
 
-const cross = '<span class="material-symbols-outlined"> close </span>';
-const circle = '<span class="material-symbols-outlined"> radio_button_unchecked </span>';
+const cross = '<span class="material-symbols-outlined" style="color: #915917"> close </span>';
+const circle = '<span class="material-symbols-outlined" style="color: #148992"> radio_button_unchecked </span>';
 let isCrossTurn = false;
 
 const updatePlayer = (x) => {
@@ -45,6 +45,7 @@ const resetGame = () => {
     gameBoardValues = ["","","","","","","","",""];
     for(let i=0; i<9; i++){
         document.getElementById(i).innerHTML = "";
+        document.getElementById(i).style.backgroundColor = '#fff';
     }
 
     updatePlayer(isCrossTurn);
@@ -68,6 +69,7 @@ const marker = (index) => {
     if(gameBoardValues[index]===""){
         updatePlayer(isCrossTurn);
         document.getElementById(index).innerHTML = isCrossTurn ? cross : circle;
+        document.getElementById(index).style.backgroundColor = isCrossTurn ? '#f38530' : '#68d1e7';
         gameBoardValues[index] = document.getElementById(index).innerText;
         if(checkWinner()){
             scoreIncrement(checkWinner());

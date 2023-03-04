@@ -1,12 +1,13 @@
 :root{
     --square-size: 100px;
-    --border-style: thin solid;
+    --border-style: solid #515c64;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
 }
 body{
     display: flex;
@@ -14,7 +15,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    /* padding: 20px; */
+    padding: 20px;
 }
 header{
     text-align: center;
@@ -26,7 +27,8 @@ header h3{
     font-size: 30px;
 }
 .game-body{
-    border: solid;
+    border: var(--border-style);
+    box-shadow: 0 0 0px 15px #facca8;
     /* padding: 30px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -42,9 +44,11 @@ header h3{
 }
 .cross{
     grid-area: cross;
+    background-color: #f38530;
 }
 .circle{
     grid-area: circle;
+    background-color: #68d1e7;
 }
 .score-board{
     width: 100%;
@@ -83,6 +87,6 @@ header h3{
 }
 
 .game-body-item span{
-    font-size: 90px;
-    color: red;
+    font-size: 70px;
+    font-weight: 900;
 }
