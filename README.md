@@ -15,6 +15,6 @@ This is a simple implementation of the classic Tic Tac Toe game using HTML, CSS,
 * The game also includes a "Reset" button that clears the board and sets the scores back to zero.
 
 
-![image](https://user-images.githubusercontent.com/111266613/222883572-ef6b8701-b0e7-401a-85af-58ee0377aae6.png) ![image](https://user-images.githubusercontent.com/111266613/222883496-7d60fd53-df40-4aee-ae62-63e97f03029d.png)
+![image](https://user-images.githubusercontent.com/111266613/222883572-ef6b8701-b0e7-401a-85af-58ee0377aae6.png) ![image](https://user-images.githubusercontent.com/111266613/222883813-1c0901b5-368d-4775-b6e2-ddd984de9efa.png)
 
 ![image](https://user-images.githubusercontent.com/111266613/222883402-a01d3396-c3bf-49e2-90ab-17fce014fdd1.png)
